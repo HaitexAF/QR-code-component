@@ -1,33 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
-body{
 
+.container {
     background-color: hsl(212, 45%, 89%);
-    width: 1440px;
-    height: 1280px;
     display: flex;
     justify-content:center;
     align-items: center;
     text-align: center;
-
 }
+
 .box{
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
-    border: none;
     border-radius: 35px;
     height: 900px;
     width: 600px;
-    margin-left: 1700px;
-    margin-top: 290px;
-    position: fixed;
-
 }
+
 .imgQr{
     border: none;
     border-radius: 35px;
     margin-top: 10px;
-
-    
 }
 .para{
     font-family: 'Outfit', sans-serif;
@@ -65,19 +57,17 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: -670px;
-    margin-top:-590px;
-    
+    position: fixed;
+    left: 10px;
+    top: 10px;
 }
 a:link{
     text-decoration: none;
 }
-a{
+a {
     color: hsl(212, 45%, 89%);
-
 }
 .body2{
-
     background-color:hsl(0, 0%, 40%);
     width: 1440px;
     height: 1280px;
@@ -129,6 +119,7 @@ a{
     justify-content: center;
     margin-left: 15px;
 }
+
 .btn2{
     background-color: hsl(212, 45%, 89%);
     color: hsl(212, 45%, 89%);
@@ -143,9 +134,6 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: -670px;
-    margin-top:-590px;
-    
 }
 .a2{
     color:hsl(0, 0%, 40%) ;
