@@ -1,7 +1,8 @@
-let darkmode = false
+let darkmode = true
 
 function changecolor(){
     if(darkmode){
+        darkmode = false
         document.getElementById('container').style.backgroundColor= "hsl(0, 0%, 40%)";
         document.getElementById('box').style.backgroundColor= 'hsl(0, 0%, 10%)';
         document.getElementById("text").style.color = 'white'
@@ -9,7 +10,7 @@ function changecolor(){
         document.getElementById('btn').style.color="hsl(0, 0%, 40%)"
         document.getElementById('imgQr').src = 'Qrd.png'
         document.getElementById('btn').innerHTML= 'Light Mode'
-        darkmode = false
+        
     }else{
         darkmode = true
         document.getElementById('container').style.backgroundColor= "hsl(212, 45%, 89%)";
